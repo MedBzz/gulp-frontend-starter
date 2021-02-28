@@ -1,0 +1,54 @@
+{% block header -%}
+    <header class="uk-position-relative uk-background-cover" style="background-image: url(assets/images/cover-1.jpg)" uk-height-viewport>
+        <div class="uk-overlay-primary uk-position-cover"></div>
+        <div class="uk-overlay uk-position-center uk-text-center">
+            <div class="uk-width-2-3@m uk-margin-auto">
+                <h1 class="uk-margin-remove uk-heading-medium uk-light">Lorem ipsum dolor.</h1>
+                <p class="uk-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam provident officiis cupiditate totam laboriosam dolore neque vel nisi dolor. Alias aliquam obcaecati officia harum repellat aliquid nostrum quis ea assumenda?</p>
+                <a href="" class="uk-button uk-button-large uk-button-secondary">Hello</a>
+            </div>
+        </div>
+        <div class="uk-position-left uk-overlay uk-border-right uk-flex uk-flex-middle"></div>
+        <div class="uk-position-right uk-overlay uk-border-left uk-flex uk-flex-middle"></div>
+        <div class="uk-position-bottom uk-overlay uk-border-top uk-flex uk-flex-middle"></div>
+        <div class="uk-position-top">
+            <div uk-sticky="animation: uk-animation-slide-top; sel-target: #uk-navbar; cls-active: uk-navbar-sticky uk-background-secondary; cls-inactive: uk-navbar-transparent uk-navbar-custom; top: 100">
+                <nav id="uk-navbar" class="uk-light uk-navbar-custom uk-navbar-transparent">
+                    <div class="uk-container" uk-navbar>
+                        <div class="uk-navbar-left">
+                            <a href="" class="uk-navbar-item">
+                                <img src="assets/images/logo-revers.png" width="150" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-navbar-center">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li>
+                                    <a href="#">Parent</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+{%- endblock %}

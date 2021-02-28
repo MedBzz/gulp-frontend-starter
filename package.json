@@ -1,0 +1,57 @@
+{
+  "name": "fontend-starter-kit",
+  "version": "1.0.0",
+  "description": "GulpJs Template Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=1993 gulp start --development ",
+    "build": "gulp build --production",
+    "predeploy": "npm run build"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Mohamed Bouazzi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "autoprefixer": "^10.2.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.14",
+    "browserify": "^17.0.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.3.1",
+    "gulp-file": "^0.4.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inject": "^5.0.5",
+    "gulp-mode": "^1.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.2.6",
+    "require-dir": "^1.2.0",
+    "usedcss": "^1.0.7",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "uikit": "^3.6.16"
+  }
+}
